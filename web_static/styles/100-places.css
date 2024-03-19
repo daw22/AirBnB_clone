@@ -1,0 +1,125 @@
+.places {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.places h1 {
+	font-size: 30px;
+	text-align: start;
+	width: 100%;
+}
+
+.places article {
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #FF5A5F;
+	#display: inline-block;
+	position: relative;
+}
+
+.places article h2 {
+	font-size: 30px;
+	text-align: center;
+	margin: 0;
+}
+
+.price_by_night {
+	min-width: 60px;
+	height: 60px;
+	padding: 5px;
+	color: #FF5A5F;
+	font-size: 30px;
+	border: 4px solid #FF5A5F;
+	border-radius: 50%;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.information {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 45px 0 30px 0;
+	padding: 5px 15px;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	font-size: 12px;
+}
+
+.max_guest div, .number_rooms div, .number_bathrooms div {
+	width: 100px;
+	height: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.max_guest div {
+	background-image: url(../images/icon_group.png);
+}
+
+.number_rooms div {
+	background-image: url(../images/icon_bed.png);
+}
+
+.number_bathrooms div{
+	background-image: url(../images/icon_bath.png);
+}
+
+.user, .description {
+	text-align: start;
+	margin: 10px 0;
+}
+
+.places .amenities, .reviews {
+	margin-top: 40px;
+}
+
+.places .amenities h2, .places .reviews h2 {
+	font-size: 16px;
+	border-bottom: 1px solid #DDDDDD;
+	text-align: start;
+}
+
+.places .amenities ul, .reviews ul {
+	list-style: none;
+	text-align: start;
+	padding: 0;
+}
+
+.places .amenities li {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.places .amenities li div {
+	width: 20px;
+	height: 15px;
+	margin-right: 10px;
+	text-align: start;
+	background-size: cover;
+	background-position: center;
+}
+
+.pets {
+	background-image: url(../images/icon_pets.png);
+}
+
+.tv {
+	background-image: url(../images/icon_tv.png);
+}
+
+.wifi {
+	background-image: url(../images/icon_wifi.png);
+}
+
+.reviews h3 {
+	font-size: 14px;
+}
